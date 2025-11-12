@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "title": "Camiseta React",
+    "price": 599,
+    "category": "ropa",
+    "stock": 10,
+    "description": "Camiseta oficial de React",
+    "img": "/assets/camiseta.jpg"
+  },
+  {
+    "id": "p2",
+    "title": "Gorra JS",
+    "price": 299,
+    "category": "accesorios",
+    "stock": 5,
+    "description": "Gorra con logo JS",
+    "img": "/assets/gorra.jpg"
+  },
+  {
+    "id": "p3",
+    "title": "Mug Dev",
+    "price": 199,
+    "category": "hogar",
+    "stock": 20,
+    "description": "Taza para desarrolladores",
+    "img": "/assets/mug.jpg"
+  }
+]
