@@ -6,12 +6,48 @@ import ItemDetailContainer from './containers/ItemDetailContainer'
 import Cart from './pages/Cart'
 import Checkout from './pages/Checkout'
 
-export default function App(){
+export default function App() {
   return (
     <>
-      <header>
-        <div className="container"><NavBar /></div>
-      </header>
+    <header
+  style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '20px',
+    background: '#222',
+    color: '#fff',
+    padding: '20px',
+  }}
+>
+  {/* LOGO */}
+  <img
+    src="/assets/logo.jpg"
+    alt="Logo"
+    style={{ width: 55, height: 55, borderRadius: '50%' }}
+  />
+
+  {/* NAVBAR CON FONDO BLANCO, REDONDEADO Y MÁS GRANDE */}
+  <div
+    style={{
+      flex: 1,
+      display: 'flex',
+      justifyContent: 'center',
+    }}
+  >
+    <div
+      style={{
+        background: '#ffffff',
+        padding: '12px 25px',
+        borderRadius: '14px',
+        boxShadow: '0 4px 10px rgba(0,0,0,0.15)',
+      }}
+    >
+      <NavBar />
+    </div>
+  </div>
+</header>
+
       <main className="container">
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
