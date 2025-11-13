@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import CartWidget from './CartWidget'
 import { CartContext } from '../context/CartContext'
+import './NavBar.css'
 
 export default function NavBar(){
   const { totalItems } = useContext(CartContext)

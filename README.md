@@ -7,11 +7,9 @@ Repositorio: ProyectoFinalFranco_Calderon
 Aplicación Front-End de e-commerce desarrollada con React y Vite. Cumple la consigna del curso: listado y detalle de productos, ItemCount, carrito con Context API, navegación con React Router, y creación de órdenes en Firestore.
 
 ## Instrucciones rápidas
-1. Descargar y descomprimir.
-2. Abrir terminal en la carpeta del proyecto.
-3. Ejecutar: `npm install`
-4. (Opcional) Crear `.env` en la raíz con las variables VITE_FIREBASE_* (ver abajo) si quieres usar Firestore real.
-5. Ejecutar: `npm run dev`
+1. Ejecutar: `npm install`
+2. (Opcional) Crear `.env` en la raíz con las variables VITE_FIREBASE_* (ver abajo) si quieres usar Firestore real.
+3. Ejecutar: `npm run dev`
 
 ## Variables de entorno (opcional, para Firebase)
 Crea un archivo `.env` con:
