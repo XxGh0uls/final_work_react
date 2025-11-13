@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import ItemCount from './ItemCount'
 import { CartContext } from '../context/CartContext'
+import { Link } from 'react-router-dom'
 
 export default function ItemDetail({item}){
   const { addItem } = useContext(CartContext)
@@ -25,7 +26,7 @@ export default function ItemDetail({item}){
         ) : (
           <div>
             <p>Agregado al carrito ✅</p>
-            <a href="/cart">Ir al carrito</a>
+            <Link to="/cart">Ir al carrito</Link>
           </div>
         )}
       </div>
